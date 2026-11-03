@@ -1,0 +1,14 @@
+# Public API of the camera core must survive shrinking in consuming apps.
+-keep public class com.recordingcamera.core.CameraCore { public *; }
+-keep public class com.recordingcamera.core.CameraCoreState { *; }
+-keep public class com.recordingcamera.core.CameraCoreEvent** { *; }
+-keep public class com.recordingcamera.core.SavedPhoto { *; }
+-keep public class com.recordingcamera.core.SavedVideo { *; }
+-keep public class com.recordingcamera.core.CameraError** { *; }
+-keep public class com.recordingcamera.core.CameraCapabilities { *; }
+-keep public class com.recordingcamera.core.CameraConfig** { *; }
+-keep public class com.recordingcamera.core.PhotoConfig { *; }
+-keep public class com.recordingcamera.core.VideoConfig { *; }
+-keep public class com.recordingcamera.core.SmoothZoom { *; }
+-keep public class com.recordingcamera.core.util.SimpleLifecycleOwner { *; }
+-keep public interface com.recordingcamera.core.storage.PhotoSink { *; }

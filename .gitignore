@@ -1,0 +1,17 @@
+# Gradle / IDE
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Kotlin / analysis
+.kotlin/
+
+# Local scratch space used while validating the module
+.tmp/
+
+# JVM crash dumps (daemon crashes leave these in the project root)
+hs_err_pid*.log
+replay_pid*.log

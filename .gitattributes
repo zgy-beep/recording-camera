@@ -1,0 +1,6 @@
+# Keep the repository byte-stable across Windows/macOS/Linux checkouts.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.webp binary
